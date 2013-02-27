@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res\layout-land-1024x600\shopping.xml" />
+        <ignore path="res\layout-land-1024x600\shopping_tushu_detail_info.xml" />
+        <ignore path="res\layout\download_category_item.xml" />
+        <ignore path="res\layout\message_process_item.xml" />
+        <ignore path="res\layout\player.xml" />
+        <ignore path="res\layout\shopping.xml" />
+        <ignore path="res\layout\shopping_tushu_detail_info.xml" />
+        <ignore path="res\layout\shoppingbooks_item.xml" />
+        <ignore path="res\layout\shoppingcategory_item.xml" />
+        <ignore path="res\layout\shoppinglibrary_item.xml" />
+        <ignore path="res\layout\shoppingmembercenter_item.xml" />
+        <ignore path="res\layout\shoppingnews_item.xml" />
+        <ignore path="res\layout\shoppingnewspaper_item.xml" />
+        <ignore path="res\layout\shoppingperiodical_item.xml" />
+        <ignore path="res\layout\shoppingtushu_item.xml" />
+        <ignore path="res\layout\shoppingtushupurchase.xml" />
+        <ignore path="res\layout\user_modifypwd.xml" />
+        <ignore path="res\layout\user_modifypwd.xml" />
+    </issue>
+    <issue id="DisableBaselineAlignment">
+        <ignore path="res\layout\download_category_item.xml" />
+        <ignore path="res\layout\shoppingbooks_item.xml" />
+        <ignore path="res\layout\shoppingcategory_item.xml" />
+        <ignore path="res\layout\shoppinglibrary_item.xml" />
+        <ignore path="res\layout\shoppingnews_item.xml" />
+        <ignore path="res\layout\shoppingnewspaper_item.xml" />
+        <ignore path="res\layout\shoppingperiodical_item.xml" />
+        <ignore path="res\layout\shoppingtushu_item.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res\layout\download_category_item.xml" />
+        <ignore path="res\layout\list_scroll_data.xml" />
+        <ignore path="res\layout\player.xml" />
+        <ignore path="res\layout\subscription.xml" />
+        <ignore path="res\layout\subscription_item.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res\layout-land-1024x600\shopping.xml" />
+        <ignore path="res\layout-land-1024x600\shopping_tushu_detail_info.xml" />
+        <ignore path="res\layout\download_category_item.xml" />
+        <ignore path="res\layout\player.xml" />
+        <ignore path="res\layout\shopping.xml" />
+        <ignore path="res\layout\shopping_tushu_detail_info.xml" />
+        <ignore path="res\layout\shoppingcategory_item.xml" />
+        <ignore path="res\layout\shoppingnews_item.xml" />
+        <ignore path="res\layout\shoppingperiodical_item.xml" />
+        <ignore path="res\layout\shoppingtushu_item.xml" />
+        <ignore path="res\layout\shoppingtushupurchase.xml" />
+    </issue>
+    <issue id="ScrollViewSize">
+        <ignore path="res\layout-land-1024x600\shopping_tushu_detail_info.xml" />
+        <ignore path="res\layout\shopping_tushu_detail_info.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res\layout\buyyeepay.xml" />
+        <ignore path="res\layout\list_scroll_data.xml" />
+        <ignore path="res\layout\list_scroll_data.xml" />
+        <ignore path="res\layout\list_scroll_data.xml" />
+    </issue>
+    <issue id="UselessParent">
+        <ignore path="res\layout-land-1024x600\shopping.xml" />
+        <ignore path="res\layout-land-1024x600\shoppingtushudialog.xml" />
+        <ignore path="res\layout\list_scroll_data.xml" />
+        <ignore path="res\layout\my_friend_manager_item.xml" />
+        <ignore path="res\layout\shopping.xml" />
+        <ignore path="res\layout\shoppingtushudialog.xml" />
+    </issue>
+</lint>

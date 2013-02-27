@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">万能播放器</string>
+    <string name="load_to_refresh">更多</string>
+    <string name="doing_update">加载中…</string>
+    <string name="update_time">更新于:</string>
+    <string name="tip">提示</string>
+    <string name="OK">确定</string>
+    <string name="CANCEL">取消</string>
+    <string name="exitTip">确实要退出程序吗?</string>
+    <string name="News">新闻</string>
+    <string name="Shop">商城</string>
+    <string name="Shelf">书架</string>
+    <string name="Media">多媒体</string>
+    <string name="More">更多</string>
+    <string name="back">返回</string>
+    <string name="points">…</string>
+    <string name="failedgetdata">获取数据失败！</string>
+    <!-- shopping string modified by zengsonghai -->
+    <string name="searchkey">请输入搜索关键字</string>
+    <!-- &#160;&#160;&#160;&#160; -->
+    <!-- shopping string modified by zengsonghai end -->
+    <string name="palyerpopinfo">当前正在播放其他歌曲，继续会将其中断并播放选中的歌曲</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="noSDCARD">没有发现外部存储，请安装SDCARD后再使用本软件。</string>
+    <string name="noSDCARDmem">外部存储已满，请清理SDCARD。</string>
+    <string name="noSDCARDmemConfirm">继续使用本软件可能会自动退出,继续吗?</string>
+    <string name="dwStateStoped">停止</string>
+    <string name="dwStateStoping">停止中</string>
+    <string name="dwStateDowning">正在下载</string>
+    <string name="dwStateCover">下载封面</string>
+    <string name="dwStateWaiting">等待</string>
+    <string name="dwStateConneting">连接中</string>
+    <string name="dwStateError">错误</string>
+    <string name="current_play">当前播放</string>
+    <string name="loading">加载中…</string>
+    <string name="exitPlay">您确定退出当前播放吗?</string>
+    <string name="init_decoders">Initializing decoders...</string>
+    <!-- 当前播放 -->
+    <string-array name="playStatus">
+        <item></item>
+        <item>正在连接</item>
+        <item>正在缓冲</item>
+        <item>播放中</item>
+        <item>暂停</item>
+        <item>停止</item>
+        <item>网络错误</item>
+        <item>错误</item>
+    </string-array>
+    <string name="loadinfo">载入中，请稍后...</string>
+    <string name="locallist">本地列表</string>
+    <string name="control_play_lists">列表</string>
+    <string name="control_previous">上一个</string>
+    <string name="control_next">下一个</string>
+    <string name="control_play_state">播放</string>
+    <string name="control_pause_state">暂停</string>
+    <string name="control_menu">返回</string>
+    <string name="control_soundControl">调音</string>
+    <string name="control_soundControl_mute">静音</string>
+    <string name="controler_exit">退出</string>
+</resources>

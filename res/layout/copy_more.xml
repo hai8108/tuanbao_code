@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/commtitle" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlelayout"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_left_btn_margin"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="copy_按钮--1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

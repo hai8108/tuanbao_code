@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/commtitle" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlelayout"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_left_btn_margin"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="按钮--1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_left_btn_margin"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="按钮--2"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_below="@id/btn_1"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/btn_3"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_left_btn_margin"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="按钮--3"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_below="@id/btn_2"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/btn_4"
+            style="@style/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/title_left_btn_margin"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="按钮--4"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_below="@id/btn_3"
+            android:visibility="visible" />
+        <TextView 
+            
+            android:id="@+id/text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+			android:layout_centerHorizontal="true"
+            android:text="这里是文字描述"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_below="@id/btn_4"
+            android:layout_marginTop="20dp"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>
